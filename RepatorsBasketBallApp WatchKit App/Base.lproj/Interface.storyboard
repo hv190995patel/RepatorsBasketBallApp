@@ -1,14 +1,45 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11134" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14460.31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc" pageOrientation="vertical">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11055"/>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14460.16"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="RepatorsBasketBallApp_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="left" text="Raptors Schedule" id="SG8-Cb-v4V"/>
+                        <table alignment="left" id="PN6-9b-Ug9">
+                            <items>
+                                <tableRow identifier="myRow" id="HJI-v5-9bG" customClass="BasketBallController" customModule="RepatorsBasketBallApp_WatchKit_App" customModuleProvider="target">
+                                    <group key="rootItem" width="1" height="100" alignment="left" id="Qn9-Gr-MAb">
+                                        <items>
+                                            <label alignment="left" text="team1" id="uVr-OQ-adO"/>
+                                            <label alignment="left" text="starttime" id="hGW-qq-1NK"/>
+                                            <label alignment="left" text="team2" id="0Jt-44-thj" userLabel="Team2"/>
+                                            <label alignment="left" text="location" id="qA9-10-lEN" userLabel="Day"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="locationLabel" destination="qA9-10-lEN" id="ccv-zj-Gud"/>
+                                        <outlet property="startTimeLabel" destination="hGW-qq-1NK" id="Mse-e7-GVu"/>
+                                        <outlet property="team1Label" destination="uVr-OQ-adO" id="C1z-Im-wVq"/>
+                                        <outlet property="team2Label" destination="0Jt-44-thj" id="hR8-u4-Gng"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="basketTable" destination="PN6-9b-Ug9" id="QeC-c6-mCO"/>
+                    </connections>
+                </controller>
             </objects>
         </scene>
     </scenes>

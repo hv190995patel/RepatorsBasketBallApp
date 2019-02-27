@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		982B8FBC2226FD3D00241BB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982B8FBB2226FD3D00241BB6 /* AppDelegate.swift */; };
+		982B8FBE2226FD3D00241BB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982B8FBD2226FD3D00241BB6 /* ViewController.swift */; };
+		982B8FC12226FD3D00241BB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 982B8FBF2226FD3D00241BB6 /* Main.storyboard */; };
+		982B8FC32226FD4000241BB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 982B8FC22226FD4000241BB6 /* Assets.xcassets */; };
+		982B8FC62226FD4000241BB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 982B8FC42226FD4000241BB6 /* LaunchScreen.storyboard */; };
+		982B8FCB2226FD4000241BB6 /* RepatorsBasketBallApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 982B8FCA2226FD4000241BB6 /* RepatorsBasketBallApp WatchKit App.app */; };
+		982B8FD12226FD4000241BB6 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 982B8FCF2226FD4000241BB6 /* Interface.storyboard */; };
+		982B8FD32226FD4200241BB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 982B8FD22226FD4200241BB6 /* Assets.xcassets */; };
+		982B8FDA2226FD4200241BB6 /* RepatorsBasketBallApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 982B8FD92226FD4200241BB6 /* RepatorsBasketBallApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		982B8FDF2226FD4200241BB6 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982B8FDE2226FD4200241BB6 /* InterfaceController.swift */; };
+		982B8FE12226FD4200241BB6 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982B8FE02226FD4200241BB6 /* ExtensionDelegate.swift */; };
+		982B8FE32226FD4200241BB6 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982B8FE22226FD4200241BB6 /* ComplicationController.swift */; };
+		982B8FE52226FD4400241BB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 982B8FE42226FD4400241BB6 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		982B8FCC2226FD4000241BB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 982B8FB02226FD3D00241BB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 982B8FC92226FD4000241BB6;
+			remoteInfo = "RepatorsBasketBallApp WatchKit App";
+		};
+		982B8FDB2226FD4200241BB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 982B8FB02226FD3D00241BB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 982B8FD82226FD4200241BB6;
+			remoteInfo = "RepatorsBasketBallApp WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		982B8FEC2226FD4400241BB6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				982B8FDA2226FD4200241BB6 /* RepatorsBasketBallApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		982B8FF02226FD4400241BB6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				982B8FCB2226FD4000241BB6 /* RepatorsBasketBallApp WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		982B8FB82226FD3D00241BB6 /* RepatorsBasketBallApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepatorsBasketBallApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		982B8FBB2226FD3D00241BB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		982B8FBD2226FD3D00241BB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		982B8FC02226FD3D00241BB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		982B8FC22226FD4000241BB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		982B8FC52226FD4000241BB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		982B8FC72226FD4000241BB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		982B8FCA2226FD4000241BB6 /* RepatorsBasketBallApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RepatorsBasketBallApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		982B8FD02226FD4000241BB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		982B8FD22226FD4200241BB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		982B8FD42226FD4200241BB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		982B8FD92226FD4200241BB6 /* RepatorsBasketBallApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RepatorsBasketBallApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		982B8FDE2226FD4200241BB6 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		982B8FE02226FD4200241BB6 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		982B8FE22226FD4200241BB6 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		982B8FE42226FD4400241BB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		982B8FE62226FD4400241BB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		982B8FB52226FD3D00241BB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		982B8FD62226FD4200241BB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		982B8FAF2226FD3D00241BB6 = {
+			isa = PBXGroup;
+			children = (
+				982B8FBA2226FD3D00241BB6 /* RepatorsBasketBallApp */,
+				982B8FCE2226FD4000241BB6 /* RepatorsBasketBallApp WatchKit App */,
+				982B8FDD2226FD4200241BB6 /* RepatorsBasketBallApp WatchKit Extension */,
+				982B8FB92226FD3D00241BB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		982B8FB92226FD3D00241BB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				982B8FB82226FD3D00241BB6 /* RepatorsBasketBallApp.app */,
+				982B8FCA2226FD4000241BB6 /* RepatorsBasketBallApp WatchKit App.app */,
+				982B8FD92226FD4200241BB6 /* RepatorsBasketBallApp WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		982B8FBA2226FD3D00241BB6 /* RepatorsBasketBallApp */ = {
+			isa = PBXGroup;
+			children = (
+				982B8FBB2226FD3D00241BB6 /* AppDelegate.swift */,
+				982B8FBD2226FD3D00241BB6 /* ViewController.swift */,
+				982B8FBF2226FD3D00241BB6 /* Main.storyboard */,
+				982B8FC22226FD4000241BB6 /* Assets.xcassets */,
+				982B8FC42226FD4000241BB6 /* LaunchScreen.storyboard */,
+				982B8FC72226FD4000241BB6 /* Info.plist */,
+			);
+			path = RepatorsBasketBallApp;
+			sourceTree = "<group>";
+		};
+		982B8FCE2226FD4000241BB6 /* RepatorsBasketBallApp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				982B8FCF2226FD4000241BB6 /* Interface.storyboard */,
+				982B8FD22226FD4200241BB6 /* Assets.xcassets */,
+				982B8FD42226FD4200241BB6 /* Info.plist */,
+			);
+			path = "RepatorsBasketBallApp WatchKit App";
+			sourceTree = "<group>";
+		};
+		982B8FDD2226FD4200241BB6 /* RepatorsBasketBallApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				982B8FDE2226FD4200241BB6 /* InterfaceController.swift */,
+				982B8FE02226FD4200241BB6 /* ExtensionDelegate.swift */,
+				982B8FE22226FD4200241BB6 /* ComplicationController.swift */,
+				982B8FE42226FD4400241BB6 /* Assets.xcassets */,
+				982B8FE62226FD4400241BB6 /* Info.plist */,
+			);
+			path = "RepatorsBasketBallApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		982B8FB72226FD3D00241BB6 /* RepatorsBasketBallApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 982B8FF12226FD4400241BB6 /* Build configuration list for PBXNativeTarget "RepatorsBasketBallApp" */;
+			buildPhases = (
+				982B8FB42226FD3D00241BB6 /* Sources */,
+				982B8FB52226FD3D00241BB6 /* Frameworks */,
+				982B8FB62226FD3D00241BB6 /* Resources */,
+				982B8FF02226FD4400241BB6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				982B8FCD2226FD4000241BB6 /* PBXTargetDependency */,
+			);
+			name = RepatorsBasketBallApp;
+			productName = RepatorsBasketBallApp;
+			productReference = 982B8FB82226FD3D00241BB6 /* RepatorsBasketBallApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		982B8FC92226FD4000241BB6 /* RepatorsBasketBallApp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 982B8FED2226FD4400241BB6 /* Build configuration list for PBXNativeTarget "RepatorsBasketBallApp WatchKit App" */;
+			buildPhases = (
+				982B8FC82226FD4000241BB6 /* Resources */,
+				982B8FEC2226FD4400241BB6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				982B8FDC2226FD4200241BB6 /* PBXTargetDependency */,
+			);
+			name = "RepatorsBasketBallApp WatchKit App";
+			productName = "RepatorsBasketBallApp WatchKit App";
+			productReference = 982B8FCA2226FD4000241BB6 /* RepatorsBasketBallApp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		982B8FD82226FD4200241BB6 /* RepatorsBasketBallApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 982B8FE92226FD4400241BB6 /* Build configuration list for PBXNativeTarget "RepatorsBasketBallApp WatchKit Extension" */;
+			buildPhases = (
+				982B8FD52226FD4200241BB6 /* Sources */,
+				982B8FD62226FD4200241BB6 /* Frameworks */,
+				982B8FD72226FD4200241BB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RepatorsBasketBallApp WatchKit Extension";
+			productName = "RepatorsBasketBallApp WatchKit Extension";
+			productReference = 982B8FD92226FD4200241BB6 /* RepatorsBasketBallApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		982B8FB02226FD3D00241BB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = MAD;
+				TargetAttributes = {
+					982B8FB72226FD3D00241BB6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					982B8FC92226FD4000241BB6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					982B8FD82226FD4200241BB6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 982B8FB32226FD3D00241BB6 /* Build configuration list for PBXProject "RepatorsBasketBallApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 982B8FAF2226FD3D00241BB6;
+			productRefGroup = 982B8FB92226FD3D00241BB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				982B8FB72226FD3D00241BB6 /* RepatorsBasketBallApp */,
+				982B8FC92226FD4000241BB6 /* RepatorsBasketBallApp WatchKit App */,
+				982B8FD82226FD4200241BB6 /* RepatorsBasketBallApp WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		982B8FB62226FD3D00241BB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982B8FC62226FD4000241BB6 /* LaunchScreen.storyboard in Resources */,
+				982B8FC32226FD4000241BB6 /* Assets.xcassets in Resources */,
+				982B8FC12226FD3D00241BB6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		982B8FC82226FD4000241BB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982B8FD32226FD4200241BB6 /* Assets.xcassets in Resources */,
+				982B8FD12226FD4000241BB6 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		982B8FD72226FD4200241BB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982B8FE52226FD4400241BB6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		982B8FB42226FD3D00241BB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982B8FBE2226FD3D00241BB6 /* ViewController.swift in Sources */,
+				982B8FBC2226FD3D00241BB6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		982B8FD52226FD4200241BB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982B8FE12226FD4200241BB6 /* ExtensionDelegate.swift in Sources */,
+				982B8FDF2226FD4200241BB6 /* InterfaceController.swift in Sources */,
+				982B8FE32226FD4200241BB6 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		982B8FCD2226FD4000241BB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 982B8FC92226FD4000241BB6 /* RepatorsBasketBallApp WatchKit App */;
+			targetProxy = 982B8FCC2226FD4000241BB6 /* PBXContainerItemProxy */;
+		};
+		982B8FDC2226FD4200241BB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 982B8FD82226FD4200241BB6 /* RepatorsBasketBallApp WatchKit Extension */;
+			targetProxy = 982B8FDB2226FD4200241BB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		982B8FBF2226FD3D00241BB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				982B8FC02226FD3D00241BB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		982B8FC42226FD4000241BB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				982B8FC52226FD4000241BB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		982B8FCF2226FD4000241BB6 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				982B8FD02226FD4000241BB6 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		982B8FE72226FD4400241BB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		982B8FE82226FD4400241BB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		982B8FEA2226FD4400241BB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HQ3J3N37Q;
+				INFOPLIST_FILE = "RepatorsBasketBallApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MAD5244.RepatorsBasketBallApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		982B8FEB2226FD4400241BB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HQ3J3N37Q;
+				INFOPLIST_FILE = "RepatorsBasketBallApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MAD5244.RepatorsBasketBallApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		982B8FEE2226FD4400241BB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HQ3J3N37Q;
+				IBSC_MODULE = RepatorsBasketBallApp_WatchKit_Extension;
+				INFOPLIST_FILE = "RepatorsBasketBallApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = MAD5244.RepatorsBasketBallApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		982B8FEF2226FD4400241BB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HQ3J3N37Q;
+				IBSC_MODULE = RepatorsBasketBallApp_WatchKit_Extension;
+				INFOPLIST_FILE = "RepatorsBasketBallApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = MAD5244.RepatorsBasketBallApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		982B8FF22226FD4400241BB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HQ3J3N37Q;
+				INFOPLIST_FILE = RepatorsBasketBallApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MAD5244.RepatorsBasketBallApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		982B8FF32226FD4400241BB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HQ3J3N37Q;
+				INFOPLIST_FILE = RepatorsBasketBallApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MAD5244.RepatorsBasketBallApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		982B8FB32226FD3D00241BB6 /* Build configuration list for PBXProject "RepatorsBasketBallApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				982B8FE72226FD4400241BB6 /* Debug */,
+				982B8FE82226FD4400241BB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		982B8FE92226FD4400241BB6 /* Build configuration list for PBXNativeTarget "RepatorsBasketBallApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				982B8FEA2226FD4400241BB6 /* Debug */,
+				982B8FEB2226FD4400241BB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		982B8FED2226FD4400241BB6 /* Build configuration list for PBXNativeTarget "RepatorsBasketBallApp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				982B8FEE2226FD4400241BB6 /* Debug */,
+				982B8FEF2226FD4400241BB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		982B8FF12226FD4400241BB6 /* Build configuration list for PBXNativeTarget "RepatorsBasketBallApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				982B8FF22226FD4400241BB6 /* Debug */,
+				982B8FF32226FD4400241BB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 982B8FB02226FD3D00241BB6 /* Project object */;
+}
